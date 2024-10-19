@@ -1,0 +1,37 @@
+.platform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.platform__left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.platform__title {
+    text-align: left;
+    font-family: 'Jura';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 91.14px;
+}
+
+.platform__subtitle {
+    text-align: left;
+    font-family: 'Jura';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27.12px;
+    margin-top: 10px;
+}
+
+.button-launch {
+    font-family: 'Jura';
+    font-size: 20px;
+    width: 171px;
+    height: 50px;
+}

@@ -1,0 +1,112 @@
+.affiliate {
+    position: relative;
+    width: 100%;
+}
+
+.affiliate__text-container {
+    margin-top: 350px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.affiliate__title {
+    font-family: 'Jura';
+    font-size: 63px;
+}
+
+.affiliate__subtitle {
+    font-style: 'Light';
+    font-family: 'Jura';
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: 'Jura';
+}
+
+.diagram {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.horizontal-line {
+    height: 1px;
+    background-color: white;
+    margin-bottom: 69.24px;
+    margin-left: 16.3px;
+    margin-right: 13.3px;
+}
+
+
+.levels__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.level {
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.level span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid white;
+    margin: 0 auto;
+    position: relative;
+}
+
+.arrow-text {
+    font-family: 'Jura';
+}
+
+.arrow::before {
+    content: '';
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    width: 1px;
+    height: 80px;
+    background-color: white;
+    transform: translateX(-50%);
+}
+
+.level::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    /* Эта линия идет от стрелки до центральной линии */
+    left: 50%;
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,35 @@
+.marketing {
+    position: relative;
+    width: 100%;
+}
+
+.marketing__decoration {
+    position: absolute;
+    background-image: url('../../../public/img/marketing-decoration.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1020px;
+    left: 0;
+    z-index: -1;
+    top: 0;
+}
+
+.marketing__text-container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.marketing__title {
+    font-family: 'Jura';
+    font-size: 63px;
+}
+
+.marketing__subtitle {
+    font-style: 'Light';
+    font-family: 'Jura';
+    font-size: 24px;
+    font-weight: 100;
+}

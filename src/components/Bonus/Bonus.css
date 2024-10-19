@@ -1,0 +1,102 @@
+.bonus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.program__container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 21px;
+    border: 1px solid var(--Linear, #7BAAF0);
+    background: rgba(22, 16, 61, 0.18);
+    padding: 40px 40px 40px 40px;
+}
+
+.program__title {
+    color: #FFF;
+    font-family: Jura;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 42px */
+    letter-spacing: -0.84px;
+    margin-bottom: 20px;
+}
+
+.program__table-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.program__line {
+    background: linear-gradient(90deg, #7BAAF0 8.97%, #91B6EC 52.16%, #91B6EC 62.26%, #A5C0E8 76.05%, #72AAFF 96.26%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 1px;
+    height: 240px;
+}
+
+.program__table-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.program__table-row {
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.row__left-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Jura;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 112.5% */
+}
+
+.row__right-text {
+    color: #FFF;
+    font-family: Jura;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.program__subtitle {
+    color: #FFF;
+    font-family: Jura;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    /* 36px */
+    letter-spacing: -0.72px;
+    padding-top: 100px;
+}
+
+.program__text {
+    color: #FFF;
+    text-align: left;
+    font-family: Jura;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 20px;
+    /* 150% */
+}

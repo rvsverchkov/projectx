@@ -1,0 +1,103 @@
+.header__blue-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url('../../../public/img/blue-ellipse.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 70vw;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.header__logo-container {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+}
+
+.header__logo {
+    background-image: url('../../../public/img/icon-x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 119px;
+    height: 64px;
+}
+
+.header__link {
+    font-size: 20px;
+    font-family: 'Jura';
+}
+
+.header__logo-text {
+    background-image: url('../../../public/img/logo-text.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    left: 100px;
+    top: 22px;
+}
+
+.header__right-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.header__link-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header__icon {
+    background-image: url('../../../public/img/tg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+}
+
+.affiliate__decoration-one {
+    position: absolute;
+    background-image: url('../../../public/img/affiliate-decoration-one.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 70vw;
+    left: 0;
+    z-index: -10;
+    top: 0;
+}
+
+.affiliate__decoration-two {
+    position: absolute;
+    background-image: url('../../../public/img/affiliate-decoration-two.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 2000px;
+    height: 2000px;
+    right: -300px;
+    z-index: -4;
+    top: 500px;
+}
