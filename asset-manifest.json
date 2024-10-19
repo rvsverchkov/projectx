@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/rvsverchkov/projectx/static/css/main.993cf1b4.css",
-    "main.js": "/rvsverchkov/projectx/static/js/main.5ee75619.js",
-    "static/js/453.0bdcea4d.chunk.js": "/rvsverchkov/projectx/static/js/453.0bdcea4d.chunk.js",
-    "static/media/affiliate-decoration-two.png": "/rvsverchkov/projectx/static/media/affiliate-decoration-two.60226ef697a1405c2b1e.png",
-    "static/media/marketing-decoration.png": "/rvsverchkov/projectx/static/media/marketing-decoration.56b5305d41c1bf308008.png",
-    "static/media/affiliate-decoration-one.png": "/rvsverchkov/projectx/static/media/affiliate-decoration-one.0b8e4dd8fd4739c3771a.png",
-    "static/media/blue-ellipse.png": "/rvsverchkov/projectx/static/media/blue-ellipse.7bec6c3aed6f3073512c.png",
-    "static/media/icon-x.png": "/rvsverchkov/projectx/static/media/icon-x.ed49591d62d5d37fd01c.png",
-    "static/media/logo-text.svg": "/rvsverchkov/projectx/static/media/logo-text.0c0e948364c197efc6e5.svg",
-    "static/media/button.svg": "/rvsverchkov/projectx/static/media/button.db5c458b0983911ba7c4.svg",
-    "index.html": "/rvsverchkov/projectx/index.html",
-    "static/media/tg.svg": "/rvsverchkov/projectx/static/media/tg.2da828c0b6253b3bc6a0.svg",
-    "main.993cf1b4.css.map": "/rvsverchkov/projectx/static/css/main.993cf1b4.css.map",
-    "main.5ee75619.js.map": "/rvsverchkov/projectx/static/js/main.5ee75619.js.map",
-    "453.0bdcea4d.chunk.js.map": "/rvsverchkov/projectx/static/js/453.0bdcea4d.chunk.js.map"
+    "main.css": "./static/css/main.de02d235.css",
+    "main.js": "./static/js/main.4cf9d7f0.js",
+    "static/js/453.0bdcea4d.chunk.js": "./static/js/453.0bdcea4d.chunk.js",
+    "static/media/affiliate-decoration-two.png": "./static/media/affiliate-decoration-two.60226ef697a1405c2b1e.png",
+    "static/media/marketing-decoration.png": "./static/media/marketing-decoration.56b5305d41c1bf308008.png",
+    "static/media/affiliate-decoration-one.png": "./static/media/affiliate-decoration-one.0b8e4dd8fd4739c3771a.png",
+    "static/media/blue-ellipse.png": "./static/media/blue-ellipse.7bec6c3aed6f3073512c.png",
+    "static/media/icon-x.png": "./static/media/icon-x.ed49591d62d5d37fd01c.png",
+    "static/media/logo-text.svg": "./static/media/logo-text.0c0e948364c197efc6e5.svg",
+    "static/media/button.svg": "./static/media/button.db5c458b0983911ba7c4.svg",
+    "index.html": "./index.html",
+    "static/media/tg.svg": "./static/media/tg.2da828c0b6253b3bc6a0.svg",
+    "main.de02d235.css.map": "./static/css/main.de02d235.css.map",
+    "main.4cf9d7f0.js.map": "./static/js/main.4cf9d7f0.js.map",
+    "453.0bdcea4d.chunk.js.map": "./static/js/453.0bdcea4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.993cf1b4.css",
-    "static/js/main.5ee75619.js"
+    "static/css/main.de02d235.css",
+    "static/js/main.4cf9d7f0.js"
   ]
 }
