@@ -5,6 +5,7 @@ import Platform from './components/Platform/Platform';
 import Marketing from './components/Marketing/Marketing';
 import Affiliate from "./components/Affiliate/Affiliate";
 import Bonus from "./components/Bonus/Bonus";
+import Discover from "./components/Discover/Discover";
 
 export default function App() {
     return (
@@ -15,6 +16,7 @@ export default function App() {
                 <Marketing />
                 <Affiliate />
                 <Bonus />
+                <Discover />
             </div>
         </div>
     );
