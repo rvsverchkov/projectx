@@ -1,5 +1,6 @@
 import React from "react";
 import ParticleImage, { Vector, forces } from "react-particle-image";
+import icon from './icon-x.png';
 
 const particleOptions = {
     filter: ({ x, y, image }) => {
@@ -25,7 +26,7 @@ const motionForce = (x, y) => {
 const Logo = () => {
     return (
         <ParticleImage
-            src={"/img/icon-x.png"}
+            src={icon}
             scale={.6}
             entropy={20}
             maxParticles={4000}

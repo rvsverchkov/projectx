@@ -1,6 +1,6 @@
 import React from "react";
 import "./Platform.css";
-import Logo from "../../components/Logo/Logo";
+import Logo from "../Logo/Logo";
 
 const Platform = () => {
     return (
