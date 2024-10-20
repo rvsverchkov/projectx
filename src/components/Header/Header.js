@@ -7,6 +7,7 @@ const Header = () => {
             <div className="header__blue-img"></div>
             {/* <div className="affiliate__decoration-one"></div> */}
             <div className="affiliate__decoration-two"></div>
+            <div className="discover__ellipse"></div>
             <div className="header__logo-container">
                 <div className="header__logo"></div>
                 <div className="header__logo-text"></div>

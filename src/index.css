@@ -19,6 +19,15 @@
   align-items: center;
 }
 
+.base-other-button {
+  background-image: url('../public/img/button-other.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;

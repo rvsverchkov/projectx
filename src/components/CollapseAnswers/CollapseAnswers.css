@@ -1,0 +1,38 @@
+.collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.collapse-container {
+    width: 100%;
+    text-align: left;
+}
+
+.ant-collapse-header {
+    color: #FFF !important;
+    font-family: Jura;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center !important;
+    border-bottom: 1px solid;
+}
+
+.ant-collapse-content-box {
+    /* padding-top: 0 !important; */
+    color: #FFF;
+    font-family: Jura;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

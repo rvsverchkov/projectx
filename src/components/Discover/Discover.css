@@ -1,4 +1,4 @@
-.discover {
+.discover-main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,6 +7,16 @@
     align-items: center;
     padding-bottom: 100px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.discover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
 
 .discover__left-container {
@@ -62,5 +72,39 @@
     height: 1100px;
     left: 0;
     z-index: -1;
-    top: 100px;
+    top: 300px;
+}
+
+.discover__presentation-container {
+    padding-top: 200px;
+}
+
+.presentation__buttons-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.presentation__title {
+    color: #FFF;
+    font-family: Jura;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 63px */
+    letter-spacing: -1.26px;
+}
+
+.presentation__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jura';
+    font-size: 20px;
+    width: 202px;
+    height: 66px;
 }

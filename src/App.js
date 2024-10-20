@@ -6,6 +6,7 @@ import Marketing from './components/Marketing/Marketing';
 import Affiliate from "./components/Affiliate/Affiliate";
 import Bonus from "./components/Bonus/Bonus";
 import Discover from "./components/Discover/Discover";
+import CollapseAnswers from "./components/CollapseAnswers/CollapseAnswers";
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
                 <Affiliate />
                 <Bonus />
                 <Discover />
+                <CollapseAnswers />
             </div>
         </div>
     );

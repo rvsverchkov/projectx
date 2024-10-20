@@ -101,3 +101,15 @@
     z-index: -4;
     top: 500px;
 }
+
+.discover__ellipse {
+    position: absolute;
+    background-image: url('../../../public/img/discover-ellipse.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1700px;
+    height: 1700px;
+    left: -500px;
+    z-index: -1;
+    top: 2700px;
+}
