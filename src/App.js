@@ -7,11 +7,14 @@ import Affiliate from "./components/Affiliate/Affiliate";
 import Bonus from "./components/Bonus/Bonus";
 import Discover from "./components/Discover/Discover";
 import CollapseAnswers from "./components/CollapseAnswers/CollapseAnswers";
+import Footer from "./components/Footer/Footer";
+import BackTop from "antd/es/float-button/BackTop";
 
 export default function App() {
     return (
         <div className="App">
             <div className="main-container">
+                <BackTop />
                 <Header />
                 <Platform />
                 <Marketing />
@@ -19,6 +22,7 @@ export default function App() {
                 <Bonus />
                 <Discover />
                 <CollapseAnswers />
+                <Footer />
             </div>
         </div>
     );
