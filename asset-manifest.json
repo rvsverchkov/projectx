@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/projectx/static/css/main.60b128cb.css",
-    "main.js": "/projectx/static/js/main.9daf2fce.js",
+    "main.css": "/projectx/static/css/main.9eb30fdd.css",
+    "main.js": "/projectx/static/js/main.89d0c7c9.js",
     "static/js/453.0bdcea4d.chunk.js": "/projectx/static/js/453.0bdcea4d.chunk.js",
+    "static/media/discover-ellipse.png": "/projectx/static/media/discover-ellipse.d9d01afcd0feec79405a.png",
     "static/media/discover-decoration.png": "/projectx/static/media/discover-decoration.885139ed710111765810.png",
     "static/media/affiliate-decoration-two.png": "/projectx/static/media/affiliate-decoration-two.60226ef697a1405c2b1e.png",
     "static/media/marketing-decoration.png": "/projectx/static/media/marketing-decoration.56b5305d41c1bf308008.png",
@@ -14,12 +15,13 @@
     "static/media/button.svg": "/projectx/static/media/button.db5c458b0983911ba7c4.svg",
     "index.html": "/projectx/index.html",
     "static/media/tg.svg": "/projectx/static/media/tg.2da828c0b6253b3bc6a0.svg",
-    "main.60b128cb.css.map": "/projectx/static/css/main.60b128cb.css.map",
-    "main.9daf2fce.js.map": "/projectx/static/js/main.9daf2fce.js.map",
+    "static/media/button-other.svg": "/projectx/static/media/button-other.68c4fdaad4bd10c879c2.svg",
+    "main.9eb30fdd.css.map": "/projectx/static/css/main.9eb30fdd.css.map",
+    "main.89d0c7c9.js.map": "/projectx/static/js/main.89d0c7c9.js.map",
     "453.0bdcea4d.chunk.js.map": "/projectx/static/js/453.0bdcea4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60b128cb.css",
-    "static/js/main.9daf2fce.js"
+    "static/css/main.9eb30fdd.css",
+    "static/js/main.89d0c7c9.js"
   ]
 }
