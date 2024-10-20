@@ -66,3 +66,17 @@
         gap: 10px;
     }
 }
+
+@media (max-width: 400px) {
+    .footer__link {
+        font-size: 12px;
+    }
+
+    .footer__name {
+        font-size: 12px;
+    }
+
+    .header__link {
+        font-size: 12px;
+    }
+}

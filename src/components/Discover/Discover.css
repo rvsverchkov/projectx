@@ -246,4 +246,8 @@
     .discover__decoration2 {
         top: 1150px;
     }
+
+    .presentation__button {
+        width: 150px;
+    }
 }

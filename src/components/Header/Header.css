@@ -121,6 +121,12 @@
     }
 }
 
+@media (max-width: 570px) {
+    .header__link-sm {
+        font-size: 35px !important;
+    }
+}
+
 @media (max-width: 1100px) {
     .header__logo-container {
         width: 500px;
