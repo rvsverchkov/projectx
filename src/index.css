@@ -11,12 +11,18 @@
 }
 
 .base-button {
-  background-image: url('../public/img/button.svg');
+  background-image: url('../public/img/button-new.svg');
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all .4s ease;
+  cursor: pointer;
+}
+
+.base-button:hover {
+  opacity: .6;
 }
 
 .base-other-button {
@@ -151,4 +157,18 @@ label {
 
 legend {
   display: block;
+}
+
+.rhm-rn-navigation__icon,
+.rhm-rn-navigation__icon::before,
+.rhm-rn-navigation__icon::after {
+  background-color: #ffffff !important;
+}
+
+.rhm-rn-navigation__checkbox:checked+.rhm-rn-navigation__button .rhm-rn-navigation__icon {
+  background-color: transparent !important;
+}
+
+.rhm-rn-navigation__button {
+  padding: 40px 40px 40px 40px;
 }

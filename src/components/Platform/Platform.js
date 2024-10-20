@@ -10,7 +10,9 @@ const Platform = () => {
                     <p className="platform__title">The Web3<br></br>Platform</p>
                     <p className="platform__subtitle">Discover unique opportunities<br></br>for passive income<br></br>from investments<br></br>Explore the world of DeFi</p>
                 </div>
-                <div className="base-button button-launch">LAUNCH APP</div>
+                <div onClick={() => {
+                    window.open('https://stake.xstrategy.info/', '_blank')
+                }} className="base-button button-launch">LAUNCH APP</div>
             </div>
             <Logo />
         </div>

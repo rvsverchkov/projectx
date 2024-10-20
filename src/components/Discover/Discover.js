@@ -11,7 +11,9 @@ const Discover = () => {
                             opportunities with xStrategy</p>
                         <p className="discover__subtitle">Get daily 1% of staking</p>
                     </div>
-                    <div className="base-button button-launch">LAUNCH APP</div>
+                    <div onClick={() => {
+                        window.open('https://stake.xstrategy.info/', '_blank')
+                    }} className="base-button button-launch">LAUNCH APP</div>
                     <div className="discover__text-container">
                         <p className="discover__title">Mobile friendly</p>
                         <p className="discover__subtitle">Govern your investments from<br></br>
@@ -22,6 +24,7 @@ const Discover = () => {
                 </div>
                 <div className="discover__right-phone"></div>
                 <div className="discover__decoration"></div>
+                <div className="discover__decoration2"></div>
             </div>
             <div id="presentation" className="discover__presentation-container">
                 <p className="presentation__title">Presentation</p>
