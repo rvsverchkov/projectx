@@ -1,6 +1,8 @@
 .affiliate {
     position: relative;
     width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .affiliate__text-container {
