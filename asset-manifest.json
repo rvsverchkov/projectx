@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/projectx/static/css/main.4fdcc77f.css",
+    "main.css": "/projectx/static/css/main.631bb148.css",
     "main.js": "/projectx/static/js/main.d5656a91.js",
     "static/js/453.0bdcea4d.chunk.js": "/projectx/static/js/453.0bdcea4d.chunk.js",
     "static/media/discover-ellipse.png": "/projectx/static/media/discover-ellipse.d9d01afcd0feec79405a.png",
@@ -20,12 +20,12 @@
     "index.html": "/projectx/index.html",
     "static/media/tg.svg": "/projectx/static/media/tg.2da828c0b6253b3bc6a0.svg",
     "static/media/button-other.svg": "/projectx/static/media/button-other.68c4fdaad4bd10c879c2.svg",
-    "main.4fdcc77f.css.map": "/projectx/static/css/main.4fdcc77f.css.map",
+    "main.631bb148.css.map": "/projectx/static/css/main.631bb148.css.map",
     "main.d5656a91.js.map": "/projectx/static/js/main.d5656a91.js.map",
     "453.0bdcea4d.chunk.js.map": "/projectx/static/js/453.0bdcea4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fdcc77f.css",
+    "static/css/main.631bb148.css",
     "static/js/main.d5656a91.js"
   ]
 }
