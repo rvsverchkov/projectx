@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectx/static/css/main.fb58e2dc.css",
-    "main.js": "/projectx/static/js/main.5567717b.js",
+    "main.css": "/projectx/static/css/main.0ccdb427.css",
+    "main.js": "/projectx/static/js/main.2c5df1bc.js",
     "static/js/453.0bdcea4d.chunk.js": "/projectx/static/js/453.0bdcea4d.chunk.js",
     "static/media/discover-ellipse.png": "/projectx/static/media/discover-ellipse.d9d01afcd0feec79405a.png",
     "static/media/discover-decoration.png": "/projectx/static/media/discover-decoration.885139ed710111765810.png",
@@ -9,19 +9,23 @@
     "static/media/marketing-decoration.png": "/projectx/static/media/marketing-decoration.56b5305d41c1bf308008.png",
     "static/media/affiliate-decoration-one.png": "/projectx/static/media/affiliate-decoration-one.0b8e4dd8fd4739c3771a.png",
     "static/media/blue-ellipse.png": "/projectx/static/media/blue-ellipse.7bec6c3aed6f3073512c.png",
+    "static/media/marketing-decoration2.png": "/projectx/static/media/marketing-decoration2.9e81b654a03b3c9ea30d.png",
+    "static/media/discover-decoration2.png": "/projectx/static/media/discover-decoration2.1e06b665a1edf99eacc3.png",
+    "static/media/discover-decoration3.png": "/projectx/static/media/discover-decoration3.c17b5ff70f64afadecea.png",
     "static/media/icon-x.png": "/projectx/static/media/icon-x.ed49591d62d5d37fd01c.png",
     "static/media/phone.png": "/projectx/static/media/phone.6097e699dbc749a35dfa.png",
+    "static/media/icon-small.svg": "/projectx/static/media/icon-small.7ae7e7dd662f4cecb559.svg",
     "static/media/logo-text.svg": "/projectx/static/media/logo-text.0c0e948364c197efc6e5.svg",
-    "static/media/button.svg": "/projectx/static/media/button.db5c458b0983911ba7c4.svg",
+    "static/media/button-new.svg": "/projectx/static/media/button-new.2edaf84e38b766bdb481.svg",
     "index.html": "/projectx/index.html",
     "static/media/tg.svg": "/projectx/static/media/tg.2da828c0b6253b3bc6a0.svg",
     "static/media/button-other.svg": "/projectx/static/media/button-other.68c4fdaad4bd10c879c2.svg",
-    "main.fb58e2dc.css.map": "/projectx/static/css/main.fb58e2dc.css.map",
-    "main.5567717b.js.map": "/projectx/static/js/main.5567717b.js.map",
+    "main.0ccdb427.css.map": "/projectx/static/css/main.0ccdb427.css.map",
+    "main.2c5df1bc.js.map": "/projectx/static/js/main.2c5df1bc.js.map",
     "453.0bdcea4d.chunk.js.map": "/projectx/static/js/453.0bdcea4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb58e2dc.css",
-    "static/js/main.5567717b.js"
+    "static/css/main.0ccdb427.css",
+    "static/js/main.2c5df1bc.js"
   ]
 }
