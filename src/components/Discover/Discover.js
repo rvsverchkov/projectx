@@ -29,8 +29,10 @@ const Discover = () => {
             <div id="presentation" className="discover__presentation-container">
                 <p className="presentation__title">Presentation</p>
                 <div className="presentation__buttons-container">
-                    <div className="presentation__button base-other-button">EN</div>
-                    <div className="presentation__button base-other-button">OTHER</div>
+                    <div onClick={() => {
+                        window.open('https://xstrategy.info/xStrategy_Presentation_EN.pdf', '_blank')
+                    }} className="presentation__button">EN</div>
+                    <div className="presentation__button">OTHER</div>
                 </div>
             </div>
         </div>

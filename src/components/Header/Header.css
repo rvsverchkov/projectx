@@ -127,14 +127,14 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .sub-header {
         display: none;
     }
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width: 901px) {
     .rhm-rn-navigation__nav {
         display: none !important;
         background-color: transparent !important;

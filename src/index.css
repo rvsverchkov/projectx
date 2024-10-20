@@ -19,10 +19,13 @@
   align-items: center;
   transition: all .4s ease;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .base-button:hover {
-  opacity: .6;
+  -webkit-filter: drop-shadow(5px 0px 15px #7c9ebc);
+  filter: drop-shadow(0px 3px 15px #7c9ebc);
+  ;
 }
 
 .base-other-button {

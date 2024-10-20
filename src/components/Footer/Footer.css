@@ -40,3 +40,29 @@
     flex-direction: row;
     gap: 40px;
 }
+
+@media (max-width: 1000px) {
+    .footer {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 560px) {
+    .footer__link {
+        font-size: 15px;
+    }
+
+    .footer__name {
+        font-size: 15px;
+    }
+
+    .header__link {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 460px) {
+    .footer__center-block {
+        gap: 10px;
+    }
+}
