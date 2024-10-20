@@ -6,8 +6,8 @@ const Footer = () => {
         <div className="footer">
             <p className="footer__name">© 2024 xStrategy</p>
             <div className="footer__center-block">
-                <p className="footer__link">MARKETING</p>
-                <p className="footer__link">PRESENTATION</p>
+                <a href="#marketing" className="header__link">MARKETING</a>
+                <a href="#presentation" className="header__link">PRESENTATION</a>
             </div>
         </div>
     );

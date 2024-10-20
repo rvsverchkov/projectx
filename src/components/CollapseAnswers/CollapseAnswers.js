@@ -6,7 +6,7 @@ const { Panel } = Collapse;
 
 const CollapseAnswers = () => {
     return (
-        <div className="collapse">
+        <div id="answers" className="collapse">
             <Collapse className="collapse-container" defaultActiveKey={['1']} ghost>
                 <Panel header="What network?" key="1">
                     <p>Smartcontract built on the network<br></br>Binance Smart Chain (BSC)</p>

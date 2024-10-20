@@ -35,3 +35,29 @@
     width: 171px;
     height: 50px;
 }
+
+@media (max-width: 1200px) {
+    .platform {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .platform__left-container {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .platform__title {
+        text-align: center;
+    }
+
+    .platform__subtitle {
+        text-align: center;
+    }
+
+    .canvasId {
+        width: 90%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+}

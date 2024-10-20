@@ -36,6 +36,7 @@ const Logo = () => {
             backgroundColor="transparent"
             height={400}
             width={735}
+            className="canvasId"
         />
     );
 };

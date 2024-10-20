@@ -9,11 +9,13 @@ import Discover from "./components/Discover/Discover";
 import CollapseAnswers from "./components/CollapseAnswers/CollapseAnswers";
 import Footer from "./components/Footer/Footer";
 import BackTop from "antd/es/float-button/BackTop";
+import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
 
 export default function App() {
     return (
         <div className="App">
             <div className="main-container">
+                <ScrollToHashElement />
                 <BackTop />
                 <Header />
                 <Platform />

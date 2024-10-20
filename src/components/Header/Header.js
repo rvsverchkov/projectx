@@ -13,14 +13,18 @@ const Header = () => {
                 <div className="header__logo-text"></div>
             </div>
             <div className="header__right-block">
-                <div className="header__link">MARKETING</div>
-                <div className="header__link">PRESENTATION</div>
-                <div className="header__link">F.A.Q.</div>
-                <div className="header__link-icon">
+                <a href="#marketing" className="header__link">MARKETING</a>
+                <a href="#presentation" className="header__link">PRESENTATION</a>
+                <a href="#answers" className="header__link">F.A.Q.</a>
+                <div className="header__link-icon" onClick={() => {
+                    window.open('https://t.me/xStrategyx_bot', '_blank')
+                }}>
                     <div className="header__icon"></div>
                     <div className="header__link">CHANNEL</div>
                 </div>
-                <div className="header__link-icon">
+                <div className="header__link-icon" onClick={() => {
+                    window.open('https://t.me/xStrategyx_bot', '_blank')
+                }}>
                     <div className="header__icon"></div>
                     <div className="header__link">SUPPORT</div>
                 </div>

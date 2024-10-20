@@ -10,6 +10,27 @@
     width: 70vw;
 }
 
+.header__link {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.header__link:hover {
+    opacity: .6;
+}
+
+.header__link-icon {
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.header__link-icon:hover {
+    opacity: .6;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -60,6 +81,12 @@
     align-items: center;
     width: 100%;
     padding-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    .header__right-block {
+        display: none;
+    }
 }
 
 .header__link-icon {

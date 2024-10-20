@@ -23,7 +23,7 @@ const Discover = () => {
                 <div className="discover__right-phone"></div>
                 <div className="discover__decoration"></div>
             </div>
-            <div className="discover__presentation-container">
+            <div id="presentation" className="discover__presentation-container">
                 <p className="presentation__title">Presentation</p>
                 <div className="presentation__buttons-container">
                     <div className="presentation__button base-other-button">EN</div>
